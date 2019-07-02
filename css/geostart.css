@@ -5,3 +5,29 @@
 .red {
 	color: rgb(252, 16, 16) !important;
 }
+
+.image {
+	height: 67vh;
+}
+
+.flex-table {
+	display: flex; /* or inline-flex */
+	flex-direction: row wrap;
+	justify-content: center;
+}
+
+.flex-row {
+	width: calc(100% / 4);
+	text-align: center;
+	padding: 0.2em 0.2em;
+}
+
+.flex-row img.arrow {
+	border: 0 !important;
+	margin: 0 !important;
+	box-shadow: none !important;
+	width: 60px;
+    vertical-align: middle;
+}
+ 
+  
