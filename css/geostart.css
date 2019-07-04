@@ -19,7 +19,7 @@
 .flex-row {
 	width: calc(100% / 4);
 	text-align: center;
-	padding: 0.2em 0.2em;
+	padding: 0.1em 0.1em;
 }
 
 .flex-row img.arrow {
