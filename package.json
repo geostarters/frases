@@ -8,7 +8,8 @@
   "scripts": {
     "test": "grunt test",
     "start": "grunt serve",
-    "build": "grunt"
+    "build": "grunt",
+    "preinstall": "npx npm-force-resolutions"
   },
   "author": {
     "name": "Hakim El Hattab",
@@ -23,6 +24,7 @@
     "node": ">=9.0.0"
   },
   "devDependencies": {
+    "diff": "^4.0.2",
     "express": "^4.16.2",
     "grunt": "^1.0.4",
     "grunt-autoprefixer": "^3.0.4",
@@ -39,6 +41,9 @@
     "mustache": "^2.3.0",
     "node-sass": "^4.13.1",
     "socket.io": "^2.2.0"
+  },
+  "resolutions": {
+    "diff": "^4.0.2"
   },
   "license": "MIT"
 }
